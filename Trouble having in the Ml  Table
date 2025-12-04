@@ -1,0 +1,28 @@
+#library imported
+library(ggplot2)
+
+#loading the dataset
+company_data <- read.csv("C:/Users/vanap/final_data.csv")
+
+#View the dataset
+View(company_data)
+
+#Structure of the dataset
+str(company_data)
+
+#Finding null values
+colSums(is.na(company_data))
+
+# Summary statistics
+summary(company_data)
+
+# Clean Level from Involvement column 
+company_data$Level_Clean <- ifelse(
+  grepl("Entry", company_data$Involvement, ignore.case = TRUE),
+  "Mid/Senior",
+  "Entry-level")
+
+# Creating contingency table
+ml_table <- table(company_data$Level_Clean, company_data$ML_Factor) 
+
+ml_table
