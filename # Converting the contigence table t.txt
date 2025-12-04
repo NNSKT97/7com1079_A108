@@ -1,0 +1,7 @@
+# Converting the contigence table to data frame
+ct_df <- as.data.frame(ml_table)
+colnames(ct_df) <- c("Level", "ML", "Count")
+
+# Converting ML labels
+ct_df$ML <- factor(ct_df$ML, levels = c(0,1),
+                   labels = c("ML Not Required", "ML Required"))
