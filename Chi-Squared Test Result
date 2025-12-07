@@ -1,0 +1,5 @@
+This is the result values we are getting.
+Pearson's Chi-squared test with Yates' continuity correction
+
+data:  ml_table
+X-squared = 1.4731, df = 1, p-value = 0.2249
