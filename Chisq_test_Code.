@@ -1,0 +1,4 @@
+chisq_result_company <- chisq.test(ml_table)
+print(chisq_result_company)
+print("Expected counts:")
+chisq_result_company$expected
