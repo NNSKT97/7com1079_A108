@@ -3,3 +3,7 @@ Pearson's Chi-squared test with Yates' continuity correction
 
 data:  ml_table
 X-squared = 1.4731, df = 1, p-value = 0.2249
+
+                     0        1
+  Entry-level 250.9753 56.02466
+  Mid/Senior  412.0247 91.97534
