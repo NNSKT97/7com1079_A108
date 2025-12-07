@@ -1,0 +1,8 @@
+p2 <-ggplot(prop_df, aes(x = Level, y = Proportion, fill = ML)) +
+  geom_bar(stat = "identity", position = "dodge") +
+  labs(title = "Proportion of Job Postings Requiring ML by Experience Level",
+       x = "Position Level",
+       y = "Proportion of Postings",
+       fill = "ML Requirement") +
+  theme_minimal()
+ggsave("C:/Users/vanap/prop_bar_ml.png", p2, width=6, height=4)
