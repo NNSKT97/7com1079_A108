@@ -1,0 +1,9 @@
+Plot 1 Information relating to understanding the data :
+
+The proportion bar plot in this report is used to normalise these values, and the plot allows for making comparisons between entry-level and mid/senior-level job postings. 
+Furthermore, the heatmap is used here to highlight differences in ML requirements by showing count intensity, which allows for understanding the number of job postings in each level based on ML requirements.  
+
+Plot 2 Information for data understanding :
+
+Bar plot indicates that in entry-level and mid/senior level positions, most of the job postings did not focus on ML skills, but, in the entry level, the proportion was slightly higher. 
+Based on the heatmap, it has been seen that the highest number of job postings in mid/senior levels have been observed without ML requirements, and at the entry level, few number of postings focused on ML requirements. 
